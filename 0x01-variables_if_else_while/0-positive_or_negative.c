@@ -7,6 +7,7 @@
 /**
  * main - print if number is positve, zero or negative
  * Description: printing the main function
+ * Return: 0
  */
 
 int main(void)

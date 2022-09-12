@@ -2,7 +2,8 @@
 
 /**
  * main - prints alphabets in lower case
- * Description - prints the main function
+ * Description: prints the main function
+ * prints all numbers
  * Return : 0
  */
 

@@ -2,10 +2,10 @@
 
 /**
  * main - prints base numbers of 10
- * Description: prints using main function
+ * Description : using main function
+ * this program prints the numbers 1 - 9
  * Return 0
  */
-
 int main (void)
 {
 	int x;

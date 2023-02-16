@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point
- *
+ * Description: script that compiles a C file
  * Return: Always 0 (success)
  */
 

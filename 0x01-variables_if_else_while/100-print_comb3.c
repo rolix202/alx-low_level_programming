@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (j = i; j < 10; j++)
 		{
-			if (i != j && !(i == 0 && j == 1))
+			if (i != j && !(i == 0 && j == 0))
 			{
 				putchar(i + '0');
 				putchar(j + '0');
@@ -27,6 +27,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-
 	return (0);
 }

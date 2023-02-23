@@ -1,1 +1,1 @@
-Debugging of program
+Debugging

@@ -2,6 +2,7 @@
 
 /**
  * _isupper - Entry point
+ * @c: variable type int
  * Return: 1 if uppercase or 0 if otherwise
  */
 
@@ -15,4 +16,4 @@ int _isupper(int c)
 	{
 		return (0);
 	}
-}	
+}

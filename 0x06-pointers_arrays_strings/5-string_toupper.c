@@ -2,6 +2,7 @@
 
 /**
  * string_toupper - entry point
+ * @s: data type char
  * Return: Always 0
  */
 

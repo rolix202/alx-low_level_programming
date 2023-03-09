@@ -1,46 +1,36 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - entry point
- * @n: int
- * Return: 0
+ * _sqrt - entry point
+ * @a: int
+ * @b: int
+ * Return: int
  */
 
-int _sqrt_recursion(int n)
+int _sqrt(int a, int b)
 {
-	int low = 1;
-	int  high = n;
-	int ans = 0;
-
-	if (n < 0)
+	if ((a * a) == b)
+	{
+		return (a);
+	}
+	else if ((a * a) > b)
 	{
 		return (-1);
 	}
 
-	if (n == 0 || n == 1)
+	return (_sqrt((a + 1), b));
+}
+/**
+ * _sqrt_recursion - function that returns the natural square of a number
+ * @n: int
+ * Return: natural square root or -1
+ */
+int _sqrt_recursion(int n)
+{
+	if (n == 0)
 	{
-		return (n);
+		return (0);
 	}
 
-	while (low <= high)
-	{
-		int mid = (low + high) / 2;
-
-		if (mid * mid == n)
-		{
-			ans = mid;
-			break;
-		}
-
-		else if (mid * mid < n)
-		{
-			low = mid + 1;
-			ans = mid;
-		}
-		else
-		{
-			high = mid - 1;
-		}
-	}
-	return (ans);
+	return (_sqrt(1, n));
 }

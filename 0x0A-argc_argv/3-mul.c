@@ -10,12 +10,11 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
 	int result;
 	int num1;
 	int num2;
 
-	if ((argc - 1) == 2)
+	if (argc == 3)
 	{
 		num1 = atoi(argv[1]);
 		num2 = atoi(argv[2]);

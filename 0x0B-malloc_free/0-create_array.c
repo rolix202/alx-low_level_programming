@@ -5,6 +5,7 @@
  * create_array - Entry point
  * @size: int
  * @c: char
+ * Return: 0
  */
 
 char *create_array(unsigned int size, char c)

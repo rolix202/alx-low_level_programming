@@ -50,7 +50,6 @@ int op_mul(int a, int b)
  * @a: The first number.
  * @b: The second number.
  *
-
  * Return: The quotient of a and b.
  */
 

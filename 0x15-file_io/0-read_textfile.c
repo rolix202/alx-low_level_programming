@@ -1,9 +1,11 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * read_textfile - Entry point
  * @filename: char
  * @letters: size_t
+ * Return: w
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)

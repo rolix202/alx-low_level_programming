@@ -1,10 +1,10 @@
 #include "main.h"
-#include <unistd.h>
-#include <fcntl.h>
-#include <stdlib.h>
-#include <stdio.h>
 
-#define BUF_SIZE 1024
+/**
+ * read_textfile - Entry point
+ * @filename: char
+ * @letters: size_t
+ */
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
